@@ -4,8 +4,9 @@ html {
 }
 
 body {
-  background-color: #f1d4f7;
+  background-image: url(https://i.ibb.co/GxTxkff/photo-1620121692029-d088224ddc74.jpg);
   font-family: "Roboto Condensed", sans-serif;
+  background-size: cover;
   height: 100%;
 }
 
@@ -17,7 +18,7 @@ body {
 }
 
 .welcome {
-  background-color: white;
+  background-color: #d2d3f9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +27,7 @@ body {
   height: 500px;
   border-radius: 34px;
   text-align: center;
-  box-shadow: rgb(232, 103, 249, 0.35) 0px 7px 20px;
+  box-shadow: rgb(131 115 255 / 35%) 0px 0px 40px 15px;
 }
 
 .welcome h3 {
@@ -36,5 +37,31 @@ body {
 .welcimg {
   height: 200px;
   width: 200px;
+
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 266px;
+  align-items: center;
+
+}
+
+.header i {
+  color: gray;
+  cursor: pointer;
+}
+
+.topbar{
+  color: white;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.topbar img{
+  height: 18px;
+  width: 18px;
 
 }

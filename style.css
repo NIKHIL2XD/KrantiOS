@@ -1,9 +1,40 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body{
-    background-color:#FCF3FE;
-    font-family: "Roboto Condensed", sans-serif;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #f1d4f7;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.welcome {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 34px;
+  text-align: center;
+  box-shadow: rgb(232, 103, 249, 0.35) 0px 7px 20px;
+}
+
+.welcome h3 {
+  width: 90%;
+}
+
+.welcimg {
+  height: 200px;
+  width: 200px;
+
+}

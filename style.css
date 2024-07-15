@@ -8,6 +8,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   background-size: cover;
   height: 100%;
+  margin: 0px
 }
 
 .container {
@@ -58,11 +59,38 @@ body {
   color: white;
   display: flex; 
   justify-content: space-between;
+  margin: 0px;
+  background-color: rgba(0 0 0 / 60%);
+  margin-bottom: 0px;
 }
 
 .topbar img{
   height: 13px;
   width: 13px;
   padding-right: 3px;
+}
+
+.topbarfirst li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  float: left;
+  margin-right: 23px;
+}
+
+.topbarfirst ul{
+  margin: 0px;
+  margin-left: 0px;
+}
+
+.middle{
+  position: center;
+  margin: 0px;
+  margin-left: 0px;
+}
+
+#time{
+  margin-top: 0px;
 }
 

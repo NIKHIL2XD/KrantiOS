@@ -61,7 +61,8 @@ body {
 }
 
 .topbar img{
-  height: 18px;
-  width: 18px;
-
+  height: 13px;
+  width: 13px;
+  padding-right: 3px;
 }
+
